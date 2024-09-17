@@ -1,0 +1,112 @@
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f3f2f7;
+    display: flex;
+}
+.content {
+    width: 85%;
+    height: 100%;
+    background-color: #f3f2f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Sidebar {
+    width: 15%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.SidebarList .row{
+    width: 100%;
+    height: 70px;
+    list-style-type:none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.SidebarList .row:hover{
+    cursor: pointer;
+    background-color: #293846;
+}
+
+#active {
+    background-color: #293846;
+    border-bottom: 1px solid black;
+}
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+.row #tittle {
+    flex: 70%;
+}
+
+.sidebar-tittle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 30px;
+}
+
+.sidebar-tittle-group 
+{
+    list-style: none;
+}
+
+
+.card-chart{
+    width: 100%;
+}
+
+.date-picker-form {
+    cursor: pointer;
+}
+
+.card-group-kavling{
+    height: 90vh;
+}
+
+.kavling-card {
+    width: 315px;
+    max-height: 150px;
+}
+
+.kavling-card-nama {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.kavling-card-img{
+    width: 85px;
+    height: 85px;
+
+    
+}
+
