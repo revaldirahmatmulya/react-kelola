@@ -28,7 +28,7 @@ const baseUrl = "https://0035-158-140-172-84.ngrok-free.app/api/";
 ```
 
 3. pages/RumahDetail.js
-  pada file ini, paste url sebagai contoh :
+  pada file ini, paste url tanpa melibatkan ( api/ ) sebagai contoh :
 ```javascript
 const urlAPI = "https://0035-158-140-172-84.ngrok-free.app/";
 ```
